@@ -1,0 +1,152 @@
+{
+  "incidents": [
+    {
+      "id": "inc-1",
+      "title": "Injured Golden Retriever",
+      "description": "Golden Retriever limping and seems to have an injured paw. Friendly but nervous. Needs immediate vet transfer.",
+      "animalType": "dog",
+      "severity": "critical",
+      "status": "active",
+      "latitude": 40.785091,
+      "longitude": -73.968285,
+      "locationName": "Central Park West & 81st St",
+      "reporterName": "Sarah Jenkins",
+      "reporterPhone": "555-0199",
+      "reporterEmail": "sarah.j@example.com",
+      "imageUrl": null,
+      "responderId": "vol-102",
+      "createdAt": "2026-06-25T17:32:18.862Z",
+      "updatedAt": "2026-06-25T18:32:18.863Z"
+    },
+    {
+      "id": "inc-2",
+      "title": "Stranded Kitten in Alley",
+      "description": "Tiny black kitten stuck high up on a brick ledge behind the coffee shop. Meowing loudly, crying for help.",
+      "animalType": "cat",
+      "severity": "high",
+      "status": "reported",
+      "latitude": 40.758896,
+      "longitude": -73.98513,
+      "locationName": "Times Square Alleyway",
+      "reporterName": "Carlos Diaz",
+      "reporterPhone": "555-0245",
+      "reporterEmail": "carlos@example.com",
+      "imageUrl": null,
+      "responderId": null,
+      "createdAt": "2026-06-25T20:02:18.863Z",
+      "updatedAt": "2026-06-25T20:02:18.863Z"
+    },
+    {
+      "id": "inc-3",
+      "title": "Dehydrated Pigeon",
+      "description": "Found a pigeon on the concrete unable to fly due to extreme heat. Kept in shade, provided water, needs rehabilitation.",
+      "animalType": "bird",
+      "severity": "low",
+      "status": "resolved",
+      "latitude": 40.74844,
+      "longitude": -73.985656,
+      "locationName": "Empire State Building Plaza",
+      "reporterName": "Emily Stone",
+      "reporterPhone": "555-0312",
+      "reporterEmail": "emily.s@example.com",
+      "imageUrl": null,
+      "responderId": "vol-104",
+      "createdAt": "2026-06-25T12:32:18.863Z",
+      "updatedAt": "2026-06-25T14:32:18.863Z"
+    },
+    {
+      "id": "inc-4",
+      "title": "Injured Fawn in Suburbs",
+      "description": "Small fawn with a cut on its leg spotted near the edge of the woods behind residential gardens.",
+      "animalType": "other",
+      "severity": "medium",
+      "status": "dispatched",
+      "latitude": 40.706086,
+      "longitude": -74.008826,
+      "locationName": "Wall Street Park Area",
+      "reporterName": "David Miller",
+      "reporterPhone": "555-0456",
+      "reporterEmail": null,
+      "imageUrl": null,
+      "responderId": "vol-101",
+      "createdAt": "2026-06-25T16:32:18.863Z",
+      "updatedAt": "2026-06-25T17:32:18.863Z"
+    },
+    {
+      "title": "Injured Dog near Times Square",
+      "description": "A brown dog is limping near the sidewalk, looks scared",
+      "animalType": "dog",
+      "severity": "critical",
+      "latitude": 40.702993,
+      "longitude": -73.963924,
+      "locationName": "Wall St & W 14th StTimes Square",
+      "reporterName": null,
+      "reporterPhone": null,
+      "reporterEmail": null,
+      "imageUrl": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?auto=format&fit=crop&q=80&w=250",
+      "id": "inc-30187d37",
+      "status": "resolved",
+      "createdAt": "2026-06-25T20:34:21.245Z",
+      "updatedAt": "2026-06-25T20:35:49.172Z",
+      "responderId": null
+    }
+  ],
+  "comments": [
+    {
+      "id": "com-1",
+      "incidentId": "inc-1",
+      "authorName": "System Log",
+      "text": "Incident reported by Sarah Jenkins.",
+      "statusUpdate": "reported",
+      "createdAt": "2026-06-25T17:32:18.863Z"
+    },
+    {
+      "id": "com-2",
+      "incidentId": "inc-1",
+      "authorName": "Dispatcher",
+      "text": "Volunteer vol-102 (Marcus) dispatched to location.",
+      "statusUpdate": "dispatched",
+      "createdAt": "2026-06-25T17:44:18.863Z"
+    },
+    {
+      "id": "com-3",
+      "incidentId": "inc-1",
+      "authorName": "Marcus (vol-102)",
+      "text": "Arrived on scene. Dog is friendly, has a deep cut on right front paw. Securing him in the rescue crate now.",
+      "statusUpdate": "active",
+      "createdAt": "2026-06-25T18:32:18.863Z"
+    },
+    {
+      "id": "com-4",
+      "incidentId": "inc-3",
+      "authorName": "Emily Stone",
+      "text": "Pigeon reported.",
+      "statusUpdate": "reported",
+      "createdAt": "2026-06-25T12:32:18.863Z"
+    },
+    {
+      "id": "com-5",
+      "incidentId": "inc-3",
+      "authorName": "Dr. Evelyn (Vet Clinic)",
+      "text": "Pigeon was rehydrated and released successfully. Wing was not fractured, just mild sprain.",
+      "statusUpdate": "resolved",
+      "createdAt": "2026-06-25T14:32:18.863Z"
+    },
+    {
+      "id": "com-b611a724",
+      "incidentId": "inc-30187d37",
+      "authorName": "System Log",
+      "text": "Emergency incident reported: \"Injured Dog near Times Square\". Status set to Reported.",
+      "statusUpdate": "reported",
+      "createdAt": "2026-06-25T20:34:21.245Z"
+    },
+    {
+      "authorName": "DispatcheDr. Evelyn (Vet Clinic)r 1",
+      "text": "Dog has been secured and transfered to clinic. Wound treated.",
+      "statusUpdate": "resolved",
+      "id": "com-8ac2887a",
+      "incidentId": "inc-30187d37",
+      "createdAt": "2026-06-25T20:35:49.167Z"
+    }
+  ]
+}
